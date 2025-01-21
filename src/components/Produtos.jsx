@@ -14,7 +14,7 @@ function Produtos() {
 
             <div className="produto_a">
 
-                <img src="harness-set.jpg" alt="Coleira" />
+                <img src="foto_produto_um.jpg" alt="Coleira" />
 
                 <h4>Coleira Irís</h4>
                 <p>R$39,99</p>
@@ -24,7 +24,7 @@ function Produtos() {
 
             <div className="produto_b">
 
-                <img src="orange+leash.jpg" alt="Coleira" />
+                <img src="foto_produto_dois.jpg" alt="Coleira" />
 
                 <h4>Coleira Campi</h4>
                 <p>R$34,99</p>
@@ -34,7 +34,7 @@ function Produtos() {
 
             <div className="produto_c">
 
-                <img src="bowl-1+copy.jpg" alt="Coleira" />
+                <img src="foto_produto_tres.jpg" alt="Coleira" />
 
                 <h4>Coleira Irís</h4>
                 <p>R$17,99</p>

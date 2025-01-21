@@ -50,10 +50,10 @@ function Footer() {
 
         <div className="container_imgs_footer">
 
-            <img src="Terrier+escocês+com+suéter+verde.png" alt="Imagem" className='ia'/>
-            <img src="Coleira+Pepé+roxa,+laranja+e+verde.png" alt="Imagem" />
-            <img src="Cão+cliente+usando+coleira+e+guia+verde.jpg" alt="Imagem" />
-            <img src="Fundadora+da+Otis+Pets+com+o+galgo+de+estimação.png" alt="Imagem" />
+            <img src="foto_footer_um.png" alt="Imagem"/>
+            <img src="foto_footer_dois.png" alt="Imagem" />
+            <img src="foto_footer_tres.jpg" alt="Imagem" />
+            <img src="foto_footer_quatro.png" alt="Imagem" />
 
         </div>
 
