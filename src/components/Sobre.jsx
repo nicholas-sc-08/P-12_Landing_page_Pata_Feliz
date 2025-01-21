@@ -12,7 +12,7 @@ function Sobre() {
 
       <div className="container_img_sobre">
 
-        <img src="Cão+com+a+adorada+coleira+Pepé.jpg" alt="" />
+        <img src="foto_sobre.jpg" alt="Imagem de Cachorro" />
 
       </div>
 
