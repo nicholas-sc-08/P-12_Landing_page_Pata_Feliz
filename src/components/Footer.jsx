@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
@@ -26,6 +26,15 @@ function Footer() {
     
        produtos_ref.current.scrollIntoView({ behavior: 'smooth'});
       
+    };
+
+    const [email, set_email] = useState(``);
+
+    const lidar_com_formulario = e => {
+
+        e.preventDefault();
+
+        set_email(``);
     };
  
     return (
@@ -61,7 +70,7 @@ function Footer() {
 
                 </div>
 
-                <p>Desenvolvido por <Link>Nicholas Serencovich Carvalho</Link></p>
+                <p>Desenvolvido por <Link target='_blank' to={`https://github.com/nicholas-sc-08`}>Nicholas Serencovich Carvalho</Link></p>
 
             </div>
 
@@ -77,10 +86,10 @@ function Footer() {
 
                 <p>Receba atualizações sobre novos produtos e descontos.</p>
                 
-                <form className='formulario'>
+                <form className='formulario' onSubmit={lidar_com_formulario}>
 
-                <input type="email" placeholder='Endereço de e-mail'/>
-                <button>Cadastre-se</button>
+                <input type="email" placeholder='Endereço de e-mail' value={email} onChange={e => set_email(e.target.value)}/>
+                <button type='submit'>Cadastre-se</button>
                 </form>
 
             </div>
