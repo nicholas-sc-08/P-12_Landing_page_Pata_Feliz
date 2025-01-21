@@ -12,7 +12,7 @@ Caso queira visualizar o projeto em tempo real segue o link abaixo:
 
 <kdb><a href='https://p-12-landing-page-pets-feliz.vercel.app/'>Visualizar Em Tempo Real</a></kdb>
 
-## <img src='https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Processo de instalação
+## <img src='https://github.com/nicholas-sc-08/P-12_Landing_page_Pets_Feliz/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Processo de instalação
 
 Com o Git instalado em seu computador, abra o prompt de commando em seu computador. Feito isso, com o caminho já escolhido aonde você deseja colocar seu projeto no explorador de arquivos, execute o seguinte commando:
 
