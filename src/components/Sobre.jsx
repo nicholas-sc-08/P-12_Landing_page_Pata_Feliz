@@ -1,8 +1,14 @@
-import React from 'react'
-import './Sobre.css'
+import React from 'react';
+import './Sobre.css';
+import { useContext } from 'react';
+import { GlobalContext } from '../context/GlobalContext';
+
 function Sobre() {
+  
+  const {sobre_ref} = useContext(GlobalContext);
+
   return (
-    <div className='container_sobre'>
+    <div className='container_sobre' ref={sobre_ref}>
 
       <div className="container_img_sobre">
 

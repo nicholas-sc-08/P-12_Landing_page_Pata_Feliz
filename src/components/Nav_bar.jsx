@@ -1,8 +1,32 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Nav_bar.css';
 import { Link } from 'react-router-dom';
+import { GlobalContext } from '../context/GlobalContext';
 
 function Nav_bar() {
+  
+  const {inicio_ref} = useContext(GlobalContext);
+  const {produtos_ref} = useContext(GlobalContext);
+  const {sobre_ref} = useContext(GlobalContext);
+
+  const ir_para_o_inicio = () => {
+
+    inicio_ref.current.scrollIntoView({ behavior: 'smooth'});
+  
+  };
+
+  const ir_para_sobre = () => {
+
+    sobre_ref.current.scrollIntoView({ behavior: 'smooth'});
+  
+  };
+
+  const ir_para_produtos = () => {
+
+    produtos_ref.current.scrollIntoView({ behavior: 'smooth'});
+  
+  };
+  
   return (
     <div className='contatiner_navbar'>
 
@@ -14,9 +38,9 @@ function Nav_bar() {
 
         <div className="container_hyperlinks_navbar">
 
-            <Link to='#' >Início</Link>
-            <Link to='#' >Sobre</Link>
-            <Link to='#' >Produtos</Link>
+            <Link to='#' onClick={ir_para_o_inicio}>Início</Link>
+            <Link to='#' onClick={ir_para_sobre}>Sobre</Link>
+            <Link to='#' onClick={ir_para_produtos}>Produtos</Link>
 
         </div>
 

@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Banner.css';
 import Nav_bar from './Nav_bar';
+import { GlobalContext } from '../context/GlobalContext';
 
 function Banner() {
+  
+  const {inicio_ref} = useContext(GlobalContext);
+  
   return (
-    <div className='container_banner'>
+    <div className='container_banner' ref={inicio_ref}>
 
         <div className="alinhamento_navbar">
 

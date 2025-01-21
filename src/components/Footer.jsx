@@ -1,9 +1,35 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { GlobalContext } from '../context/GlobalContext';
 
 function Footer() {
-  return (
+ 
+    const {inicio_ref} = useContext(GlobalContext);
+    const {produtos_ref} = useContext(GlobalContext);
+    const {sobre_ref} = useContext(GlobalContext);
+    
+    const ir_para_o_inicio = () => {
+    
+       inicio_ref.current.scrollIntoView({ behavior: 'smooth'});
+      
+    };
+    
+    const ir_para_sobre = () => {
+    
+       sobre_ref.current.scrollIntoView({ behavior: 'smooth'});
+      
+    };
+    
+    const ir_para_produtos = () => {
+    
+       produtos_ref.current.scrollIntoView({ behavior: 'smooth'});
+      
+    };
+ 
+    return (
+    
     <div className='container_footer'>
     
         <div className="container_titulo">
@@ -41,9 +67,9 @@ function Footer() {
 
             <div className="coluna_b_footer">
 
-                <Link>Início</Link>
-                <Link>Sobre</Link>
-                <Link>Produtos</Link>
+                <Link to={`#`} onClick={ir_para_o_inicio}>Início</Link>
+                <Link to={`#`} onClick={ir_para_sobre}>Sobre</Link>
+                <Link to={`#`} onClick={ir_para_produtos}>Produtos</Link>
 
             </div>
 
