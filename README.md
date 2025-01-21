@@ -7,11 +7,10 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Este repositório contém uma Landing page desenvolvida em React, projetada para exibir os próximos eventos promover um musical. A página é visualmente atraente e responsiva, proporcionando uma experiência de usuário envolvente e intuitiva. O projeto é ideal para artistas.
-
+O projeto Pata Feliz é uma aplicação desenvolvida em React, uma Landing Page focada em proporcionar uma experiência interativa e amigável para os usuários. Este repositório contém todo o código-fonte e recursos necessários para executar e contribuir com o projeto.
 Caso queira visualizar o projeto em tempo real segue o link abaixo:
 
-<kdb><a href='https://p-11-landing-page-track-vault.vercel.app/'>Visualizar Em Tempo Real</a></kdb>
+<kdb><a href='https://p-12-landing-page-pets-feliz.vercel.app/'>Visualizar Em Tempo Real</a></kdb>
 
 ## <img src='https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Processo de instalação
 
