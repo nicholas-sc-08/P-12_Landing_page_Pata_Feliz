@@ -1,0 +1,95 @@
+
+:root{
+
+    --cor_um: ##ffe8ba;
+    --cor_dois: #070707;
+    --cor_tres: #f2f2f2;
+    --cor_quatro: #525252;
+
+    --tipografia_primaria: 'Nunito', sans-serif;
+}
+
+.contatiner_navbar{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 90vw;
+    height: 15vh;
+
+    border-bottom: 0.2vw solid var(--cor_dois);
+
+    background-color: transparent;
+}
+
+.container_img_navbar img{
+
+    width: 20vw;
+    height: 15vh;
+}
+
+.container_hyperlinks_navbar{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 45vw;
+    height: 15vh;
+}
+
+.container_hyperlinks_navbar a{
+
+    transition: 0.3s;
+
+    text-decoration: none;
+
+    font-family: var(--tipografia_primaria);
+    font-size: 1.5vw;
+    font-weight: lighter;
+
+    color: var(--cor_dois);
+}
+
+.container_hyperlinks_navbar a:hover{
+
+
+    color: var(--cor_quatro);
+}
+
+.container_botao_nav_bar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25vw;
+    height: 15vh;
+}
+
+.container_botao_nav_bar button{
+
+    transition: 0.3s;
+
+    width: 15vw;
+    height: 7vh;
+
+    cursor: pointer;
+
+    border: 0.1vw solid var(--cor_dois);
+    border-radius: 1vw;
+
+    font-family: var(--tipografia_primaria);
+    font-size: 1.2vw;
+    font-weight: bold;
+
+    color: var(--cor_dois);
+    background-color: transparent;
+}
+
+.container_botao_nav_bar button:hover{
+
+    color: var(--cor_tres);
+    background-color: var(--cor_dois);
+}
