@@ -42,7 +42,7 @@ E por fim, tenha certeza de instalar a biblioteca do React-router-dom;
   npm i react-router-dom
 ```
 
-## <img src='https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault/blob/main/Imagens_Readme/Gif_Node.gif' width='25px' height='25px'> Inicialização do Projeto
+## <img src='https://github.com/nicholas-sc-08/P-12_Landing_page_Pets_Feliz/blob/main/Imagens_Readme/Gif_Node.gif' width='25px' height='25px'> Inicialização do Projeto
 
 Esta etapa não obrigatória, mas se você deseja abrir o projeto localmente, com o caminho já selecionado no prompt de commando do projeto, execute o commando de inicializar localmente:
 
