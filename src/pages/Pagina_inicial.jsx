@@ -4,6 +4,7 @@ import { GlobalContext } from '../context/GlobalContext';
 import Banner from '../components/Banner';
 import Sobre from '../components/Sobre';
 import Produtos from '../components/Produtos';
+import Footer from '../components/Footer';
 
 function Pagina_inicial() {
   
@@ -13,6 +14,7 @@ function Pagina_inicial() {
       <Banner/>
       <Sobre/>
       <Produtos/>
+      <Footer/>
 
     </div>
   )
