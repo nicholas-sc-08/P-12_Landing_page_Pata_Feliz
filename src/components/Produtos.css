@@ -1,0 +1,76 @@
+
+:root{
+
+    --cor_um: #ffe8ba;
+    --cor_dois: #070707;
+    --cor_tres: #f2f2f2;
+    --cor_quatro: #525252;
+    --cor_cinco: #e6d8f9;
+
+    --tipografia_primaria: 'Nunito', sans-serif;
+}
+
+.container_produtos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 80vh;
+
+    background-color: var(--cor_cinco);
+}
+
+.container_produtos img{
+
+    width: 25vw;
+}
+
+.container_dos_produtos{
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    width: 95vw;
+}
+
+.container_dos_produtos h4{
+
+    font-size: 2.2vw;
+    font-family: var(--tipografia_primaria);
+    font-weight: lighter;
+
+    margin-bottom: 0vw;
+}
+
+.container_dos_produtos p{
+
+    font-size: 1.6vw;
+    font-family: var(--tipografia_primaria);
+}
+
+.container_dos_produtos button{
+
+    transition: 0.3s;
+    cursor: pointer;
+
+    width: 13vw;
+    height: 5vh;
+
+    font-family: var(--tipografia_primaria);
+    font-size: 1.2vw;
+    font-weight: bold;
+
+    border-radius: 0.5vw;
+    border: 0.1vw solid var(--cor_dois);
+
+    color: var(--cor_dois);
+    background-color: transparent;
+}
+
+.container_dos_produtos button:hover{
+
+    color: var(--cor_tres);
+    background-color: var(--cor_dois);
+}
